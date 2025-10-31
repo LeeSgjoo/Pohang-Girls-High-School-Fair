@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 포항여고 슬기짜기 동아리 & 한동대학교 환영</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 기본 폰트 설정 */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc; /* 연한 배경색 */
+        }
+        /* 섹션 컨테이너 스타일 */
+        main section, nav, footer {
+            padding: 2.5rem 1rem;
+            margin-bottom: 2rem;
+            border-radius: 1.5rem; /* 둥근 모서리 */
+            /* Tailwind의 shadow-md와 유사한 스타일 */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
+            background-color: white;
+        }
+        /* 제목 스타일 */
+        h1, h2 {
+            font-weight: 800; /* Extra bold */
+            color: #1e3a8a; /* Dark Blue (Indigo-900 쯤) */
+        }
+        /* 강조 텍스트 (mark) 스타일 */
+        mark {
+            background-color: #99f6e4; /* Light Teal Highlight */
+            color: #0f766e;
+            padding: 0 0.25rem;
+            border-radius: 0.25rem;
+            font-weight: 600;
+        }
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            margin-top: 1rem;
+        }
+        th, td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: #eff6ff; /* Lightest Blue for header */
+            font-weight: 600;
+        }
+        /* 버튼 스타일링 (<a> 태그를 버튼처럼) */
+        .btn-link {
+            display: inline-block;
+            margin-top: 0.75rem;
+            padding: 0.75rem 1.5rem;
+            font-weight: 700;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: #3b82f6; /* Blue */
+            color: white;
+            box-shadow: 0 4px 6px rgba(59, 130, 246, 0.3);
+        }
+        .btn-secondary {
+            background-color: #6ee7b7; /* Teal */
+            color: #047857;
+            box-shadow: 0 4px 6px rgba(110, 231, 183, 0.3);
+        }
+        .btn-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <!-- 중앙 컨테이너: 최대 너비 설정 및 중앙 정렬 -->
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- 1. 헤더 (Header) -->
+        <header class="text-center mb-8 bg-indigo-600 text-white p-6 rounded-3xl shadow-xl">
+            <h1 class="text-3xl md:text-5xl mb-2 font-black">
+                ✨ 포항여자고등학교 학생 여러분, 환영합니다!
+            </h1>
+            <p class="text-indigo-200 text-lg">
+                환영의 뜻을 담아 한동대학교 **슬기짜기** 동아리가 제작한 페이지입니다.
+            </p>
+        </header>
+
+        <!-- 2. 네비게이션 (Navigation) -->
+        <nav class="p-6">
+            <h2 class="text-2xl mb-4 border-b pb-2 border-indigo-100 text-indigo-700">🧭 주요 정보 탐색</h2>
+            <ul class="flex flex-wrap justify-center gap-4 text-center">
+                <li class="w-full sm:w-auto"><a href="#welcome" class="btn-link bg-indigo-100 text-indigo-700 hover:bg-indigo-200">환영 메시지</a></li>
+                <li class="w-full sm:w-auto"><a href="#club-intro" class="btn-link bg-indigo-100 text-indigo-700 hover:bg-indigo-200">슬기짜기 소개</a></li>
+                <li class="w-full sm:w-auto"><a href="#hgu-invitation" class="btn-link bg-indigo-100 text-indigo-700 hover:bg-indigo-200">한동대학교 소개 및 초대</a></li>
+            </ul>
+        </nav>
+
+        <!-- 3. 메인 콘텐츠 (Main Content) -->
+        <main>
+            
+            <!-- 환영 섹션 -->
+            <section id="welcome" class="p-8">
+                <h2 class="text-3xl mb-4">🎉 포항여고 학생들을 위한 특별한 환영</h2>
+                <article class="text-gray-700 leading-relaxed">
+                    <p class="mb-4 text-lg">
+                        <strong>존경하는 포항여고 학생 여러분!</strong> <br>
+                        여러분의 꿈을 응원합니다. 특히 코딩과 IT에 관심 있는 친구들은 주목해주세요.
+                        저희 동아리는 여러분의 호기심을 지적인 즐거움으로 채워줄 준비가 되어 있습니다.
+                    </p>
+                    <blockquote class="border-l-4 border-teal-500 pl-4 italic text-gray-500 my-6">
+                        "배우고 꿈꾸며 실천하는 슬기로운 인재로 거듭나세요."
+                        <br><cite class="not-italic block mt-1 text-sm text-gray-400"> - 슬기짜기 동아리 일동</cite>
+                    </blockquote>
+                    <p>
+                        <small class="text-xs text-gray-400">본 페이지는 HTML 기본 기능과 Tailwind CSS만을 활용하여 제작되었습니다.</small>
+                    </p>
+                </article>
+            </section>
+
+            <!-- 동아리 소개 섹션 -->
+            <section id="club-intro" class="p-8">
+                <h2 class="text-3xl mb-6">💻 슬기짜기 동아리를 소개합니다</h2>
+                
+                <details class="bg-gray-50 p-4 rounded-lg border border-gray-200 mb-6 cursor-pointer">
+                    <summary class="font-bold text-lg text-indigo-600">동아리 활동 요약 (클릭하여 펼치기)</summary>
+                    <p class="mt-2 pl-4 text-gray-600">슬기짜기는 '지혜를 짜다'라는 의미로, 코딩과 논리적 사고를 통해 문제를 해결하는 융합 동아리입니다.</p>
+                </details>
+                
+                <h3 class="text-xl font-bold mb-3 text-indigo-700">주요 활동 내용</h3>
+                <ol class="list-decimal list-inside space-y-1 ml-4 text-gray-700">
+                    <li>전공 & 코딩 스터디 (<code class="bg-gray-200 p-1 rounded">Python/C/Computer Architecture</code>)</li>
+                    <li>매주 즐거운 정모시간</li>
+                    <li>소규모 프로젝트 기획 및 개발</li>
+                </ol>
+                
+                <h3 class="text-xl font-bold mt-6 mb-3 text-indigo-700">활동 시간표</h3>
+                <table class="shadow-md rounded-lg overflow-hidden">
+                    <caption><strong class="text-gray-600">정기 모임 일정</strong></caption>
+                    <thead>
+                        <tr class="bg-indigo-500 text-white">
+                            <th>구분</th>
+                            <th>요일</th>
+                            <th>시간</th>
+                        </tr>
+                    </thead>
+                    <tbody>
